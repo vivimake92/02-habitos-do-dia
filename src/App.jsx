@@ -3,6 +3,8 @@ import "./App.css";
 import { Counter } from "./components/Counter";
 import { HabitCard } from "./components/HabitCard";
 import { Header } from "./components/Header";
+import { CounterExercise } from "./components/CounterExercise";
+
 import initialHabits from "./data/habits";
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
   }
   return (
     <>
+      <CounterExercise />
       <Header />
       <Counter />
 
